@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        AWS_ACCOUNT_ID = ''
+        AWS_ACCOUNT_ID = '975050152649'
         AWS_REGION = 'us-east-1'
         ECR_REPOSITORY = 'an-example-repository-for-testing'
         IMAGE_TAG = "latest"
