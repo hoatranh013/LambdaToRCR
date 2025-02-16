@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSLambdaForTestingProject", "AWSLambdaForTestingProject\AWSLambdaForTestingProject.csproj", "{D38DDD88-09AC-2AFA-6A75-667A3BA1ADCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D38DDD88-09AC-2AFA-6A75-667A3BA1ADCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38DDD88-09AC-2AFA-6A75-667A3BA1ADCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38DDD88-09AC-2AFA-6A75-667A3BA1ADCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38DDD88-09AC-2AFA-6A75-667A3BA1ADCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BD8F9BA-5D40-46F1-89BB-874B4598F4C7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\AWSLambdaForTestingProject\AWSLambdaForTestingProject\publish\AWSLambdaForTestingProject.dll
+C:\Users\Admin\source\repos\AWSLambdaForTestingProject\AWSLambdaForTestingProject\publish\AWSLambdaForTestingProject.deps.json
+C:\Users\Admin\source\repos\AWSLambdaForTestingProject\AWSLambdaForTestingProject\publish\AWSLambdaForTestingProject.runtimeconfig.json
+C:\Users\Admin\source\repos\AWSLambdaForTestingProject\AWSLambdaForTestingProject\publish\AWSLambdaForTestingProject.pdb
+C:\Users\Admin\source\repos\AWSLambdaForTestingProject\AWSLambdaForTestingProject\publish\Amazon.Lambda.Core.dll
+C:\Users\Admin\source\repos\AWSLambdaForTestingProject\AWSLambdaForTestingProject\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\Admin\source\repos\AWSLambdaForTestingProject\AWSLambdaForTestingProject\publish\Amazon.Lambda.SQSEvents.dll
