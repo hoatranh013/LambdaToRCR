@@ -35,6 +35,7 @@ stage('Login To ECR') {
             steps {
                 script {
                     sh """
+    echo 'Tagging Docker image...'
     docker tag $DOCKER_IMAGE_NAME:$IMAGE_TAG $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$ECR_REPOSITORY:$IMAGE_TAG
 """
                 }
