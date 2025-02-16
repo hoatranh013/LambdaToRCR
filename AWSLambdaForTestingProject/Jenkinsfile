@@ -19,25 +19,25 @@ pipeline {
             }
         }
 
-stage('Login To ECR') {
-    steps {
-        script {
-            withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'prm013']]) {
-                sh '''
-                    aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 975050152649.dkr.ecr.us-east-1.amazonaws.com
-                '''
+        stage('Login To ECR') {
+            steps {
+                script {
+                    withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'prm013']]) {
+                        sh '''
+                            aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 975050152649.dkr.ecr.us-east-1.amazonaws.com
+                        '''
+                    }
+                }
             }
         }
-    }
-}
 
         stage('Tag Docker Image') {
             steps {
                 script {
                     sh """
-    echo 'Tagging Docker image...'
-    docker tag $DOCKER_IMAGE_NAME:$IMAGE_TAG $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$ECR_REPOSITORY:$IMAGE_TAG
-"""
+                        echo 'Tagging Docker image...'
+                        docker tag $DOCKER_IMAGE_NAME:$IMAGE_TAG $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$ECR_REPOSITORY:$IMAGE_TAG
+                    """
                 }
             }
         }
